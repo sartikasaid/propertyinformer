@@ -1,0 +1,116 @@
+body {
+ font-family: Verdana, Geneva, sans-serif;
+}
+
+.home-bg {
+  position: relative;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
+
+.home-bg::after {
+  content: "";
+  background: url('bg1.jpg') no-repeat center center;
+  background-size:cover;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  -webkit-filter: grayscale(1); /* Old WebKit */
+  filter: grayscale(1);
+}
+
+.approach-bg {
+  position: relative;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
+
+.approach-bg::after {
+  content: "";
+  background: url('bg2.jpg') no-repeat center center;
+  background-size:cover;
+  opacity: 0.3;
+  top: 0;
+  left: -10%;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  -webkit-filter: grayscale(1); /* Old WebKit */
+  filter: grayscale(1);
+}
+
+.about-bg {
+  position: relative;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
+
+.about-bg::after {
+  content: "";
+  background: url('bg3.png') no-repeat center center;
+  background-size:cover;
+  opacity: 0.3;
+  top: 0;
+  left: -10%;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  -webkit-filter: grayscale(1); /* Old WebKit */
+  filter: grayscale(1);
+}
+
+#menu {
+  display: flex;
+  position: absolute;
+  margin-left: 50px;
+  bottom: 50px;
+}
+
+.button {
+    background-color: #ffffff;
+    border: 2px solid #191970;
+    color: #191970;
+    width: 150px;
+    padding: 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    -moz-border-radius:3px;
+  	-webkit-border-radius:3px;
+}
+
+.button:hover {
+    background-color: #191970;
+    color: white;
+}
+
+#header {
+  color:#191970;
+  font-size: 80px;
+  padding: 50px 0px;
+}
+
+#content {
+  width: 90%;
+  margin: 30px auto;
+  text-align: justify;
+  font-size: 22px;
+}
+
+#form {
+  background-color: #c0c0c0;
+  padding: 10px;
+}
