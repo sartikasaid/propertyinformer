@@ -114,3 +114,10 @@ body {
   background-color: #c0c0c0;
   padding: 10px;
 }
+
+#logo {
+  height: 250px;
+  width: 90%;
+  margin-top: 12%;
+  margin-left: 5%;
+}
