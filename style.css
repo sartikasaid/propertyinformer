@@ -73,10 +73,10 @@ body {
   position: absolute;
   margin-left: 50px;
   bottom: 50px;
-  padding: 20px;
 }
 
 .button {
+    margin-left: 4px;
     background-color: #ffffff;
     border: 2px solid #191970;
     color: #191970;
@@ -85,7 +85,6 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: 4px 2px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
@@ -96,6 +95,23 @@ body {
 .button:hover {
     background-color: #191970;
     color: white;
+}
+
+#home {
+  position:relative;
+  margin-right:51px;
+}
+
+#home img {
+  position:absolute;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+}
+
+#home img.top:hover {
+  opacity:0;
 }
 
 #header {
