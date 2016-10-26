@@ -75,13 +75,14 @@ body {
   bottom: 50px;
 }
 
-.button {
+#menubutt {
     margin-left: 4px;
     background-color: #ffffff;
     border: 2px solid #191970;
     color: #191970;
     width: 150px;
-    padding: 15px 0px;
+    height: 49px;
+    font-size: 14px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -92,14 +93,14 @@ body {
   	-webkit-border-radius:3px;
 }
 
-.button:hover {
+#menubutt:hover {
     background-color: #191970;
     color: white;
 }
 
 #home {
   position:relative;
-  margin-right:51px;
+  left: 95%;
 }
 
 #home img {
@@ -129,7 +130,7 @@ body {
 
 #form {
   background-color: #c0c0c0;
-  padding: 10px;
+  padding: 5px 10px;
 }
 
 #logo {

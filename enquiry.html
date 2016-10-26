@@ -2,44 +2,52 @@
  <head>
    <link rel="stylesheet" type="text/css" href="style.css">
    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="bootstrap.css">
 
    <title>PropertyINFORMER</title>
  </head>
 
  <body>
    <div id="menu">
+     <button class="button" id="menubutt" onclick="location.href='approach.html'">OUR APPROACH</button>
+     <button class="button" id="menubutt" onclick="location.href='about.html'">ABOUT US</button>
+     <button class="button" id="menubutt" onclick="location.href='enquiry.html'">ENQUIRE</button>
+     <button class="button" id="menubutt" onclick="location.href='packages.html'">PACKAGES</button>
      <div id="home">
        <a href="index.html"><img class="bottom" src="homebuttonhover.png" />
        <img class="top" src="homebutton.png" /></a>
      </div>
-     <button class="button" onclick="location.href='approach.html'">OUR APPROACH</button>
-     <button class="button" onclick="location.href='about.html'">ABOUT US</button>
-     <button class="button" onclick="location.href='enquiry.html'">ENQUIRE</button>
-     <button class="button" onclick="location.href='packages.html'">PACKAGES</button>
    </div>
 
    <div id="content">
      <div id="header">ENQUIRE</div>
 
      <div id="form">
-     <div class="form-group row">
-      <label for="example-text-input" class="col-xs-2 col-form-label">Name</label>
-      <div class="col-xs-10">
-        <input class="form-control" type="text" value="Enter name" id="example-text-input">
-      </div>
-    </div>
-    <div class="form-group row">
-      <label for="example-search-input" class="col-xs-2 col-form-label">Email</label>
-      <div class="col-xs-10">
-        <input class="form-control" type="search" value="Enter email" id="example-search-input">
-      </div>
-    </div>
-    <div class="form-group row">
-      <label for="example-email-input" class="col-xs-2 col-form-label">Additional/ Personal Enquiries & Questions</label>
-      <div class="col-xs-10">
-        <input class="form-control" type="email" value="Insert queries" id="example-email-input">
-      </div>
-    </div>
+       <form class="form-horizontal">
+         <div class="form-group">
+           <label class="control-label col-sm-3" for="name">Name:</label>
+           <div class="col-sm-9">
+             <input type="name" class="form-control" id="email" placeholder="Enter name">
+           </div>
+         </div>
+         <div class="form-group">
+           <label class="control-label col-sm-3" for="email">Email:</label>
+           <div class="col-sm-9">
+             <input type="email" class="form-control" id="email" placeholder="Enter email">
+           </div>
+         </div>
+         <div class="form-group">
+             <label class="control-label col-sm-3" for="exampleTextarea">Additional/Personal Enquiries and Questions:</label>
+             <div class="col-sm-9">
+             <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Insert queries"></textarea>
+           </div>
+         </div>
+         <div class="form-group">
+           <div style="margin-left: 15px">
+             <button type="submit" class="btn btn-primary">Submit</button>
+           </div>
+         </div>
+       </form>
   </div>
    </div>
 
